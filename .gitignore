@@ -1,0 +1,11 @@
+# Ignore raw/unsanitized pfSense backups and private keys
+*raw*.xml
+*unredacted*.xml
+config-pfSense.home.arpa-*.xml
+*.key
+*.pem
+*.p12
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
